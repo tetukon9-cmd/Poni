@@ -1,0 +1,173 @@
+{
+  "inspected_commit": "9546382be70ce40bd2e20d7970e393457cf92e2b",
+  "default_branch": "master",
+  "remote_heads": [
+    "master"
+  ],
+  "tags": [],
+  "tracked_files": [
+    "README.md",
+    "assets/hide-button.png",
+    "assets/qris.jpg"
+  ],
+  "historical_file_paths": [
+    "CHANGELOG.md",
+    "README.md",
+    "assets/hide-button.png",
+    "assets/qris.jpg"
+  ],
+  "source_project_manifests": [],
+  "application_source_files": [],
+  "build_test_status": "NOT_RUN_NO_APPLICATION_SOURCE",
+  "integration_status": "BLOCKED_MISSING_APPLICATION_SOURCE",
+  "poni_portable": {
+    "filename": "Poni_1.1.8_portable.exe",
+    "bytes": 9378816,
+    "sha256": "ad0553431bd787e1b5d3f96732580744157540293157df99bc01c0c3fcd19cab",
+    "machine": "0x8664",
+    "clr_rva": 0,
+    "certificate_table_bytes": 0,
+    "version_records": [
+      {
+        "CompanyName": "Bos Digital",
+        "FileDescription": "Poni",
+        "FileVersion": "1.1.8",
+        "ProductName": "Poni",
+        "ProductVersion": "1.1.8"
+      }
+    ],
+    "markers": [
+      {
+        "literal": "tauri-2.12.4",
+        "offset": 6978090
+      },
+      {
+        "literal": "wry-0.57.0",
+        "offset": 8734450
+      },
+      {
+        "literal": "webview2-com-0.39.1",
+        "offset": 8725696
+      },
+      {
+        "literal": "/vendor/fontawesome/LICENSE.txt",
+        "offset": 7433715
+      },
+      {
+        "literal": "Windows.Media.Control.GlobalSystemMediaTransportControlsSessionManager",
+        "offset": 8731424
+      }
+    ],
+    "import_dlls": [
+      "bcryptprimitives.dll",
+      "kernel32.dll",
+      "advapi32.dll",
+      "ntdll.dll",
+      "shell32.dll",
+      "combase.dll",
+      "ole32.dll",
+      "gdi32.dll",
+      "bcrypt.dll",
+      "ws2_32.dll",
+      "api-ms-win-core-synch-l1-2-0.dll",
+      "comctl32.dll",
+      "user32.dll",
+      "oleaut32.dll",
+      "shlwapi.dll",
+      "dwmapi.dll",
+      "api-ms-win-core-winrt-l1-1-0.dll",
+      "dxva2.dll",
+      "crypt32.dll",
+      "api-ms-win-shcore-scaling-l1-1-1.dll",
+      "wlanapi.dll",
+      "version.dll",
+      "wtsapi32.dll",
+      "iphlpapi.dll",
+      "pdh.dll",
+      "imm32.dll",
+      "propsys.dll",
+      "api-ms-win-core-winrt-error-l1-1-0.dll",
+      "windowscodecs.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll"
+    ],
+    "executed": false
+  },
+  "local_installer": {
+    "filename": "Poni_1.1.8_x64-setup.exe",
+    "bytes": 3980730,
+    "sha256": "2733f7e8fc7c3bbe44b9bd8397521607ecaafb2128fa1c86fa6c811b4d1f5219",
+    "matches_official_release_digest": true,
+    "format": "NSIS-3 Unicode, solid LZMA:23",
+    "archive_test": "PASS",
+    "executed": false,
+    "entries": [
+      {
+        "path": "$PLUGINSDIR/System.dll",
+        "bytes": 12288
+      },
+      {
+        "path": "$PLUGINSDIR/modern-wizard.bmp",
+        "bytes": 26494
+      },
+      {
+        "path": "$PLUGINSDIR/nsDialogs.dll",
+        "bytes": 9728
+      },
+      {
+        "path": "$PLUGINSDIR/nsis_tauri_utils.dll",
+        "bytes": 34304
+      },
+      {
+        "path": "$PLUGINSDIR/StartMenu.dll",
+        "bytes": 13316
+      },
+      {
+        "path": "$PLUGINSDIR/NSISdl.dll",
+        "bytes": 15360
+      },
+      {
+        "path": "$PLUGINSDIR/nsExec.dll",
+        "bytes": 7168
+      },
+      {
+        "path": "poni.exe",
+        "bytes": 9378816
+      },
+      {
+        "path": "uninstall.exe",
+        "bytes": null
+      }
+    ]
+  },
+  "installed_payload": {
+    "filename": "poni.exe",
+    "bytes": 9378816,
+    "sha256": "0fb81bc927796e6a131003bac8ca6b6d49ab9b72d5337cf85346ea04f4ab5cd1",
+    "executed": false,
+    "portable_comparison": {
+      "different_byte_count": 3,
+      "offset_start": 8593846,
+      "portable_literal": "__TAURI_BUNDLE_TYPE_VAR_UNK",
+      "installed_literal": "__TAURI_BUNDLE_TYPE_VAR_NSS",
+      "text_section_identical": true,
+      "runtime_equivalence_tested": false
+    }
+  },
+  "tools": {
+    "7zip": {
+      "version": "26.05",
+      "official_package_url": "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-x64.exe",
+      "package_sha256": "fd99e86f57d8f429ef5ed045bf98315af962e2309b0f1ba87a147a44c71647d0",
+      "package_executed": false,
+      "cli_sha256": "94205cfc054dd3bbeb978905bc619a65b3f04e9e73bb2717841110b6f46d962e"
+    },
+    "pefile": "2024.8.26"
+  },
+  "reachable_commits": 36
+}
